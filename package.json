@@ -1,17 +1,21 @@
 {
-  "name": "homebridge-ewelink-max",
-  "version": "0.1.8",
+  "name": "homebridge-ewelink-max-with-sensor",
+  "version": "0.0.1",
   "author": "gbro115",
   "contributors": [
     "Tomasz Bzymek",
-    "howanghk"
+    "howanghk",
+    "paulz"
   ],
   "description": "homebridge-eWeLink is a Homebrige plugin to control Sonoff relays running OEM firmware",
   "license": "MIT",
   "keywords": [
     "homebridge-plugin",
     "sonoff",
-    "ewelink"
+    "ewelink",
+    "temperature",
+    "humidity",
+    "sensor"
   ],
   "engines": {
     "node": ">=6.0.0",
@@ -19,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/howanghk/homebridge-ewelink"
+    "url": "https://github.com/paulz/homebridge-ewelink"
   },
   "dependencies": {
     "nonce": "^1.0.4",
